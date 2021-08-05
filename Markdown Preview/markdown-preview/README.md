@@ -5,7 +5,10 @@ installing and running Babel to preprocess the JSX code. Babel monitors and prep
 e.g. src/example.js -> example.js
 The HTML file will include the example.js script. We can view our app by opening index.html directly in the browser.
 
-Option two was to use Create React App. This creates a project folder with files. Particularly, index.html and the javascript files are in separate directories. 'npm start' is then called to run a daemon that binds to localhost:3000. We can view our app by going to localhost:3000 instead of opening the index.html file directly. 
+Option two was to use Create React App. This creates a project folder with files. Particularly, index.html and the javascript files are in separate directories. 'npm start' is then called to run a daemon that binds to localhost:3000. We can view our app by going to localhost:3000 instead of opening the index.html file directly.
+The plus of using Create React App is that errors are displayed in the browser. We don't have to use the Javascript console to debug.
+
+The initial project was done on CodePen.io which uses the first method. One notable difference is that the CodePen.io project calls the ReacDOM to render our app explicitly. The local development version using Create React App exports our App and then imports it in the index.js.  
 
 
 # Getting Started with Create React App
