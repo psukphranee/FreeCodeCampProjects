@@ -1,15 +1,15 @@
 # About
 
-I created this project locally using Create React App. There are two ways I could've went about this. One is
-installing and running Babel to preprocess the JSX code. Babel monitors and preprocesses `.js` files in the `src` folder and compiles it into a javascript file into `src`'s parent folder.
-e.g. src/example.js -> example.js
-The HTML file will include the example.js script. We can view our app by opening index.html directly in the browser.
+This project is the second of five captone projects for freeCodeCamp's front-end certificate. This code is a recreation of a provided sample. The code recreation was built from scratch. My approach is as follows:
+1) Disect the code: Read the code. Identify the workflow. Identify what each part does. Identify packages and dependencies used.
+2) Study: Understand what was disected. Research and review any unknowns
+3) Recreate: Recrete segments of the code. 
+This 3-step process is repeated until step 3 can be done without needing to refernce the original code.
+4) Final: Starting from scratch, create the app by following the story board provided.
 
-Option two was to use Create React App. This creates a project folder with files. Particularly, index.html and the javascript files are in separate directories. 'npm start' is then called to run a daemon that binds to localhost:3000. We can view our app by going to localhost:3000 instead of opening the index.html file directly.
-The plus of using Create React App is that errors are displayed in the browser. We don't have to use the Javascript console to debug.
+I created this project locally using Create React App. This program creates a project folder with a template of files arranged in a particular structure. The React app's code is located in src/App.js and CSS code in src/App.css. We run the app by typing `npm start` in project folder. This starts a server bound to `localhost:3000`. Behind the scenes, the 'src' is monitored and precompiles JSX code into JS. 
 
-The initial project was done on CodePen.io which uses the first method. One notable difference is that the CodePen.io project calls the ReacDOM to render our app explicitly. The local development version using Create React App exports our App and then imports it in the index.js.  
-
+There's another way to go about creating this app by installing Babel. Babel monitors the `src` folder and precompiles JSX into JS. And it does only that. We can access our app by directly opening the HTML file containing our React container.
 
 # Getting Started with Create React App
 
