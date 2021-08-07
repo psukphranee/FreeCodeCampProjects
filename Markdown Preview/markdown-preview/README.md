@@ -1,6 +1,6 @@
 # About
 
-This project is the second of five captone projects for freeCodeCamp's front-end certificate. This code is a recreation of a provided sample. The code recreation was built from scratch. My approach is as follows:
+This project is the second of five captone projects for freeCodeCamp's front-end certificate. It is a Markdown Code previewer. This code is a recreation of a provided sample, built from scratch. My approach is as follows:
 1) Disect the code: Read the code. Identify the workflow. Identify what each part does. Identify packages and dependencies used.
 2) Study: Understand what was disected. Research and review any unknowns
 3) Recreate: Recrete segments of the code. 
