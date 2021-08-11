@@ -1,0 +1,42 @@
+$padWidth: 100px;
+$padHeight: 80px;
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+
+body {
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+body {
+  user-select: none;
+  background-color: lighten(grey, 2%);
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.innerContainer {
+  position: relative;
+  width: 700px;
+  background-color: lighten(blue, 40%);
+  outline: 5px solid blue;
+  text-align: center;
+  .drum-container {
+    outline: 2px solid black;
+    height: $padHeight * 3 + 32;
+    width: $padWidth * 3 + 32;
+    background-color: white;
+    display: inline-block;
+    margin: 50px;
+    .drum-pad {
+      outline: 2px solid black;
+      height: $padHeight;
+      width: $padWidth;
+      display: inline-block;
+      margin: 5px;
+    }
+  }
+}
