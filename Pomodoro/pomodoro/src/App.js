@@ -59,7 +59,7 @@ class App extends React.Component {
                       plus={this.incBreakLength}
                       minus={this.decBreakLength}
                       />
-        <Timer minutes={this.state.sessionLength} seconds={this.state.breakLength}/>
+        <Timer sessionLength={this.state.sessionLength} breakLength={this.state.breakLength}/>
       </div>
     );
   }
